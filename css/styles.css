@@ -26,6 +26,9 @@ h4 {
 h1 {
     margin: 0;
 }
+h2 {
+    margin: 0;
+}
 .container {
     width: 100%;
     max-width: 1200px;
@@ -326,4 +329,34 @@ h1 {
     background-color: var(--background-bright);
     padding-top: 25px;
     padding-bottom: 25px;
+}
+.client-margin {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+}
+.client-object {
+    width: 170px;
+    height: 92px;
+    border-radius: 4px;
+    border: 1px solid var(--social-network);
+    padding: 16px 32px;
+}
+.client-object:hover {
+    border: 1px solid var(--brand-color);
+}
+.client-link {
+    margin-right: 30px; 
+}
+.client-link:nth-of-type(6) {
+    margin-right: 0px;
+}
+.client-object {
+    fill: var(--social-network);
+}
+.client-object:hover {
+    fill: var(--brand-color);
 }
