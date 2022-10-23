@@ -121,6 +121,7 @@ h1 {
     letter-spacing: 0.03em;
     text-align: left;
     color: var(--extra-gray);
+    margin: 0;
 }
 .lorem-title {
     font-weight: 700;
@@ -129,6 +130,8 @@ h1 {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--main-color);
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 .section-name {
     font-weight: 700;
@@ -295,4 +298,12 @@ h1 {
 .section-name.second {
     margin-top: 0;
     margin-bottom: 50px;
+}
+.box-icon-lorem {
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    background-color: var(--background-bright);
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
