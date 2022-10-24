@@ -16,6 +16,7 @@ body {
     --color-contact: rgba(255, 255, 255, 0.6);
     --border-nav: #ECECEC;
     --social-network: #AFB1B8;
+    --social-network-dark: rgba(255, 255, 255, 0.1);
 }
 .reset-margin {
     margin: 0;
@@ -189,6 +190,7 @@ h2 {
 .profession-inner:hover {
     background-color: var(--brand-color);
     fill: var(--main-white);
+    cursor: pointer;
 }
 .portfolio-title {
     font-weight: 700;
@@ -271,6 +273,9 @@ h2 {
 }
 .container.down {
     gap: 20px;
+    display: inline-block;
+    display: flex;
+    gap: 70px;
 }
 .section.lorem {
     display: flex;
@@ -345,9 +350,6 @@ h2 {
     border: 1px solid var(--social-network);
     padding: 16px 32px;
 }
-.client-object:hover {
-    border: 1px solid var(--brand-color);
-}
 .client-link {
     margin-right: 30px; 
 }
@@ -358,5 +360,34 @@ h2 {
     fill: var(--social-network);
 }
 .client-object:hover {
+    border: 1px solid var(--brand-color);
     fill: var(--brand-color);
+    cursor: pointer;
+}
+.text-down {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-white);
+}
+.social-network-down-wrapper {
+    display: flex;
+    gap: 10px;
+}
+.social-network-down {
+    display: block;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: var(--social-network-dark);
+    fill: var(--main-white);
+    padding-top: 12px;
+    padding-left: 12px;
+}
+.social-network-down:hover {
+    background-color: var(--brand-color);
+    fill: var(--main-white);
+    cursor: pointer;
 }
