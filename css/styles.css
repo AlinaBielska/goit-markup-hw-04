@@ -75,6 +75,17 @@ h2 {
     letter-spacing: 0.02em;
     color: var(--extra-gray);
     text-decoration: none;
+
+    display: flex;
+    display: inline-block;
+    align-items: center;
+}
+.icon-top-contact {
+    margin-right: 10px;
+    fill: var(--extra-gray);
+}
+.icon-top-contact:hover , .icon-top-contact:focus {
+    fill: var(--brand-color);
 }
 .top-contact:hover, .top-contact:focus, .lower-contact:hover, .lower-contact:focus {
     color: var(--brand-color);
@@ -110,6 +121,8 @@ h2 {
     padding: 200px 452px;
     gap: 30px;
     align-items: center;
+    background-image: url(../images/background-picture.jpg);
+    max-width: 1600px;
 }
 .main-slogan {
     font-weight: 900;
@@ -240,6 +253,7 @@ h2 {
 .services:hover, .services:focus {
     color: var(--main-white);
     background-color: var(--brand-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .lower-contact {
     font-style: normal;
@@ -257,10 +271,12 @@ h2 {
     color: var(--main-white);
 }
 .top-contact.phone {
-    margin-left: 50px;
+    /* margin-left: 50px; */
+    margin-left: 30px;
 }
 .top-contact.address {
-    margin-left: 371px;
+    /* margin-left: 371px; */
+    margin-left: 345px;
 }
 .portfolio-nav {
     border-bottom: 1px solid var(--border-nav);
@@ -307,6 +323,9 @@ h2 {
 }
 .gallery-item {
     flex-basis: calc((100% - 60px) / 3);
+}
+.gallery-item:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .portfolio-set {
     padding-top: 20px;
