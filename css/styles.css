@@ -90,6 +90,9 @@ h2 {
 .top-contact:hover, .top-contact:focus, .lower-contact:hover, .lower-contact:focus {
     color: var(--brand-color);
 }
+.top-contact:hover .icon-top-contact {
+    fill: var(--brand-color);
+}
 .color-logo {
     font-family: 'Raleway';
     font-weight: 700;
